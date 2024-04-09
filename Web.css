@@ -1,0 +1,205 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.image {
+    background-image: url(backgImage.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 450px;
+    background-color: rgb(87, 85, 85);
+    background-blend-mode: multiply;
+    opacity: 0.9;
+}
+.Title {
+    text-align: center;
+    color: white;
+    padding-top: 3cm;
+    font-size: 35px;
+}
+.short {
+    color: white;
+    text-align: center;
+    font-size: 22px;
+    margin-top: 1cm;
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+.Read {
+    position: relative;
+    color: white;
+    padding: 15px;
+    font-size: 20px;
+    background-color: rgb(39, 36, 36);
+    top: 1cm;
+    margin-left: 45%;
+    margin-right: auto;
+    border-style: none;
+    border: 0.5px solid rgb(240, 237, 237);
+}
+.Read:hover {
+    background-color: #eaeaea;
+    color: black;
+}
+
+.topic {
+    text-align: center;
+    font-size: 30px;
+    padding-top: 0cm;
+    font-weight: bold;
+}
+h2 {
+    display: block;
+    font-size: 1.5em;
+    margin-block-start: 0.83em;
+    margin-block-end: 0.83em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+}
+div.style {
+    background-color: #eaeaea;
+    position: relative;
+    top: 0px;
+    padding-bottom: 1cm;
+}
+.pure-g1 {
+    margin-top: 1cm;
+    margin-left: 20%;
+    margin-right: 20%;
+}
+.pure-g {
+    letter-spacing: -.31em;
+    text-rendering: optimizespeed;
+    font-family: FreeSans, Arimo, "Droid Sans", Helvetica, Arial, sans-serif;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    flex-flow: row wrap;
+    -ms-flex-line-pack: start;
+    align-content: flex-start;
+}
+.pure-g [class*=pure-u] {
+    font-family: sans-serif;
+}
+.pure-u-1, .pure-u-1-1, .pure-u-24-24, .pure-u-5-5 {
+    width: 100%;
+}
+.pure-u-1, .pure-u-1-1, .pure-u-1-12, .pure-u-1-2, .pure-u-1-24, .pure-u-1-3, .pure-u-1-4, .pure-u-1-5, .pure-u-1-6, .pure-u-1-8, .pure-u-10-24, .pure-u-11-12, .pure-u-11-24, .pure-u-12-24, .pure-u-13-24, .pure-u-14-24, .pure-u-15-24, .pure-u-16-24, .pure-u-17-24, .pure-u-18-24, .pure-u-19-24, .pure-u-2-24, .pure-u-2-3, .pure-u-2-5, .pure-u-20-24, .pure-u-21-24, .pure-u-22-24, .pure-u-23-24, .pure-u-24-24, .pure-u-3-24, .pure-u-3-4, .pure-u-3-5, .pure-u-3-8, .pure-u-4-24, .pure-u-4-5, .pure-u-5-12, .pure-u-5-24, .pure-u-5-5, .pure-u-5-6, .pure-u-5-8, .pure-u-6-24, .pure-u-7-12, .pure-u-7-24, .pure-u-7-8, .pure-u-8-24, .pure-u-9-24 {
+    display: inline-block;
+    letter-spacing: normal;
+    word-spacing: normal;
+    vertical-align: top;
+    text-rendering: auto;
+}
+.pure-g2 {
+    position: relative;
+    padding-top: 0.7cm;
+    margin-left: 10%;
+    margin-right: 10%;
+    padding-bottom: 1cm;
+}
+.grids {
+    background-color: white;
+    text-align: center;
+   margin-left: 50px;
+   margin-right: 50px;
+}
+.images {
+    width: 100%;
+    height: 6cm;
+}
+.img {
+    overflow-clip-margin: content-box;
+    overflow: clip;
+}
+.heading {
+    margin-top: 0.7cm;
+    font-size: 20px;
+    font-weight: bold;
+}
+.content {
+    margin-top: 0.7cm;
+    margin-bottom: 1.5cm;
+    font-size: 18px;
+}
+.grid {
+    background-color: rgb(30, 30, 30);
+    display: grid;
+    grid-template-columns: auto auto auto;
+    margin-top: 0%;
+}
+.main {
+    display: grid;
+    grid-template-columns: auto auto;
+}
+.wehandle {
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 1cm;
+}
+.wehandleText {
+    margin-top: 1cm;
+    font-size: 22px;
+    text-align: center;
+    margin-left: 15%;
+    margin-right: 15%;
+    margin-bottom: 2cm;
+}
+.c {
+    width: 100%;
+}
+#grid-1 {
+    display: grid;
+grid-template-columns: auto auto;
+}
+.contactUs, .about {
+    font-size: 25px;
+    font-weight: bold;
+    margin-top: 2cm;
+    text-align: center;
+    color: white;
+}
+.contactUscontent {
+    font-size: 21px;
+    margin-top: 1.5cm;
+    font-family: sans-serif;
+    text-align: center;
+    color: white;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.aboutcontent {
+    font-size: 21px;
+    margin-top: 1.5cm;
+    font-family: sans-serif;
+    color: white;
+    text-align: center;
+    margin-bottom: 2cm;
+    margin-left: 10px;
+}
+.gmail {
+    text-align: center;
+    color: white;
+    font-size: 21px;
+    font-family: sans-serif;
+}
+.first {
+    font-family: sans-serif;
+    margin-left: 240px;
+}
+.Second {
+    font-family: sans-serif;
+    margin-right: 240px;
+}
+.main-div {
+    display: grid;
+grid-template-columns: auto auto;
+}
+.Acme {
+    font-family: sans-serif;
+}
